@@ -110,7 +110,7 @@ def show():
         }
         </style>
         <div class="custom-header">
-            株式会社Lia 管理会計
+            株式会社Lia 管理会計(償却考慮)
         </div>
         """,
         unsafe_allow_html=True
