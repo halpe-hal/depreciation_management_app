@@ -39,12 +39,6 @@ elif st.session_state["menu"] == "グラフ分析":
     show_graph_analysis()
 elif st.session_state["menu"] == "月別入出金管理":
     monthly_io.show_monthly_io()
-elif st.session_state["menu"] == "固定費管理":
-    from modules.fixed_expense_setting import handle_fixed_expense_setting
-    handle_fixed_expense_setting()
-elif st.session_state["menu"] == "設定":
-    from modules.setting import show_setting_menu
-    show_setting_menu()
 
 # --- CSSカスタマイズ ---
 st.markdown(
