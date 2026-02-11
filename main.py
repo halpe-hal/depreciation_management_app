@@ -19,7 +19,7 @@ header.show()
 # --- サイドバー ---
 with st.sidebar:
     st.markdown("<h4>メニューを選択</h4>", unsafe_allow_html=True)
-    menus = ["ダッシュボード", "【税抜】ダッシュボード", "グラフ分析", "月別入出金管理", "固定費管理", "設定"]
+    menus = ["ダッシュボード", "【税抜】ダッシュボード", "グラフ分析", "月別入出金管理"]
 
     for menu_item in menus:
         if st.button(menu_item, key=f"menu_{menu_item}"):
